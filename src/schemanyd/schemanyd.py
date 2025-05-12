@@ -1,5 +1,3 @@
-schemanyd.py
-
 # Preinstalled
 from typing import Dict, Any, Union
 from io import BytesIO

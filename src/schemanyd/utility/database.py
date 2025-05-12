@@ -1,5 +1,3 @@
-database.py
-
 from sqlalchemy import MetaData, text
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 

@@ -13,7 +13,7 @@ from sqlalchemy import CheckConstraint as SQLA_CheckConstraint
 
 # Schemanyd Imports
 from .table_argument import TableArgument, Index, TableConstraint, ColumnConstraint, UniqueConstraint, PrimaryKeyConstraint, ForeignKeyConstraint, CheckConstraint, NotNullConstraint, DefaultConstraint
-from .repr.graph_visualization import draw_visualizations
+from .repr.graph_visualizations import draw_visualizations
 
 def register_converters():
     """ Once the classes are defined, this function registers the available schema converters. """
